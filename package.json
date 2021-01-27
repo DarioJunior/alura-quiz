@@ -7,14 +7,23 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
+    "next": "^10.0.5",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "react-is": "^16.8.0",
-    "styled-components": "^5.0.0"
+    "styled-components": "^5.0.0",
+    "yarn": "^1.22.10"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.8.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "description": "This example features how you use a different styling solution than [styled-jsx](https://github.com/zeit/styled-jsx) that also supports universal styles. That means we can serve the required styles for the first render within the HTML and then load the rest in the client. In this case we are using [styled-components](https://github.com/styled-components/styled-components).",
+  "main": "index.js",
+  "repository": "git+https://github.com/DarioJunior/alura-quiz.git",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/DarioJunior/alura-quiz/issues"
+  },
+  "homepage": "https://github.com/DarioJunior/alura-quiz#readme"
 }
